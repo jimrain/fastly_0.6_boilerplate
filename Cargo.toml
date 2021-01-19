@@ -1,0 +1,12 @@
+[package]
+name = "fastly-template-rust-default"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[profile.release]
+debug = true
+
+[dependencies]
+fastly = "=0.6.0-beta3"
+log-fastly = "0.1.4-beta3"
